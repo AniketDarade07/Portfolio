@@ -438,7 +438,7 @@ main {
 
 .home-image img:hover {
   transform: scale(1.03); 
-  box-shadow: 1px 8px 10px 2px var(--clr-primary);; /* Adds a shadow effect */
+  box-shadow: 1px 8px 10px 2px var(--clr-primary);
 }
 .center {
   text-align: center;
@@ -454,18 +454,17 @@ main {
   .home-content {
       padding: 10px;
   }
-
+  .home__contact {
+    display: flex;
+    justify-content: center;
+}
   .home-image {
       margin-top: 10px;
       justify-content: center;
   }
 
   .home-image img {
-      max-width: 0%; /* Adjust size on mobile if needed */
-  }
-  .home__contact center{
-    position: center;
-    text-align: center;
+      max-width: 0%; 
   }
 }
 
