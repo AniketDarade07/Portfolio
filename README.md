@@ -1,0 +1,3 @@
+Welcome to my personal portfolio website! 
+This repository contains the source code for my portfolio, showcasing my skills, projects, and experiences as a web developer.
+Website is still in progress...
