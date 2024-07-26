@@ -1,0 +1,256 @@
+<<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous" ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Aniket Darade-Portfolio</title>
+    <link rel="icon" href="assets/image.webp" type="image/png">
+  </head>
+
+  <body class="light" id="top">
+    <header class="header center">
+      <h3> <a href="index.html" class="link">Portfolio.</a></h3>
+      
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#home">Home</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#About">About</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="assets/Resume.pdf" target="_blank">Resume</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home -->
+      <div id="home" class="home-container">
+        <div class="home-content">
+            <h3>Hello, </h3>
+            <h1><span class="home__name">I'm Aniket Darade</span></h1>
+            <h2><div class="roles-container">
+              <span id="typed"></span>
+          </div></h2>
+
+            <div class="home__contact center">
+              <a href="assets/Resume.pdf" target="_blank"><span class="btn btn--outline">Resume</span></a>    
+            </div>
+            <br/>
+            <a href="https://github.com/AniketDarade07" aria-label="github" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/aniket-darade-7b7819250" aria-label="linkedin" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <div class="home-image">
+            <img src="assets/logo.webp" alt="LOgO">
+        </div>
+    </div>
+
+    <!-- About -->
+    <section class="section skills" id="About">
+      <h2 class="section__title">About Me</h2>
+    <section  class="about-container">
+      
+      <div class="about-content">
+          <p class="about__desc">
+              I am a Passionate Computer Engineering student specializing in Full Stack Web Development . With a strong foundation in web development and data structures and algorithms.
+              Throughout my coursework, I gained hands-on experience in various programming languages such as C++, Python, and JavaScript. <br/> 
+              I am proficient in web development technologies such as HTML, CSS, ReactJS.
+              Passionate about continuous learning and innovation, I am eager to contribute my technical skills and innovative mindset to real-world challenges.
+          </p>
+      </div>
+      <div class="about-image">
+          <img src="assets/logo.webp" alt="LoGo">
+      </div>
+  </section>
+
+
+  <!-- Skills -->
+  <section class="section skills" id="skills">
+    <h2 class="section__title">Skills</h2>
+    <ul class="skills__list">
+      <li class="skills__list-item btn btn--plain">HTML</li>
+      <li class="skills__list-item btn btn--plain">CSS</li>
+      <li class="skills__list-item btn btn--plain">Python</li>
+      <li class="skills__list-item btn btn--plain">C++</li>
+      <li class="skills__list-item btn btn--plain">JavaScript</li>
+      <li class="skills__list-item btn btn--plain">React</li>
+      <li class="skills__list-item btn btn--plain">Redux</li>
+      <li class="skills__list-item btn btn--plain">Git</li>
+      <li class="skills__list-item btn btn--plain">BOOTSTRAP</li>
+      <li class="skills__list-item btn btn--plain">MySql</li>
+      <li class="skills__list-item btn btn--plain">Django</li>
+      <li class="skills__list-item btn btn--plain">MongoDB</li>
+      <li class="skills__list-item btn btn--plain">Firebase</li>
+    </ul>
+  </section>
+
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Ecomerce-Website</h3>
+            <p class="project__description">
+              A Ecomerce platform built with Bootstrap and Django. The frontend leverages Bootstrap for a responsive, mobile-friendly design with seamless user experiences across devices. The backend, powered by Django, ensures secure, scalable, and efficient management of products, user authentication, and transactions. Features include user Signup, Login, Homepage, shopping cart, and checkout system, all integrated with a dynamic database for real-time updates and smooth operations.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">BOOTSTRAP</li>
+              <li class="project__stack-item">Django</li>
+            </ul>
+
+            <a href="https://github.com" aria-label="source code" class="link link--icon" >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a href="https://example.com" aria-label="live preview" class="link link--icon" >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>CryptoHub</h3>
+            <p class="project__description">
+              CryptoHub is an intuitive and interactive cryptocurrency platform built with React. Designed to provide users with real-time data and insights, CryptoHub offers features such as live cryptocurrency price tracking, historical charts, and portfolio management. The React-based frontend ensures a dynamic and responsive user experience, with seamless updates and smooth interactions. Users can access up-to-date market trends, track their investments, and view detailed coin information.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">REACTJS</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">RAPIDAPI</li>
+              <li class="project__stack-item">REACTUI</li>
+            </ul>
+
+            <a href="https://github.com" aria-label="source code" class="link link--icon" >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a href="https://example.com" aria-label="live preview" class="link link--icon" >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>ChattingApp</h3>
+            <p class="project__description">
+              A dynamic real-time chat application powered by Node.js, React.js, and ChatEngine.io. The frontend, built with React.js, delivers an intuitive and responsive user interface for seamless communication. Node.js handles the backend with efficient real-time message processing and user management. ChatEngine.io integrates to facilitate real-time messaging, notifications, and chat room functionalities, ensuring a smooth and interactive user experience.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">REACTJS</li>
+              <li class="project__stack-item">NODEJS</li>
+              <li class="project__stack-item">ChatEngine.io</li>
+            </ul>
+
+            <a href="https://github.com" aria-label="source code" class="link link--icon" >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a href="https://example.com" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="experience">
+        <h2 class="section__title">Experience</h2>
+        <div class="experience-container">
+        <div class="experience-item">
+          <h3 class="experience-role">Intern</h3>
+          <h4 class="experience-company">Python-Django WebDev</h4>
+          <span class="experience-duration">Nov 2023 - Jan 2024</span>
+          <ul class="experience-details">
+              <li>Assisted in developing and maintaining web applications using Python and Django.</li>
+              <li>Designed and managed database schemas using Django ORM and integrated third-party APIs to enhance functionality.</li>
+              <li>Gained hands-on experience with Django's features, engaged in continuous learning, conducted thorough testing, and documented code for maintainability.</li>
+          </ul>
+      </div>
+    </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact-section" id="contact">
+        <div class="contact-intro">
+          <h2 class="contact-title" style="text-align:center">Get in Touch</h2>
+        </div>
+      
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="4e7d63bf-1652-4d54-867e-e9449eb6a196" />
+      
+          <div class="form-group-container">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+            </div>
+          </div>
+          <button class="form-submit" type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="link footer__link" >
+      Copyright © 2024 Portfolio. - All rights reserved <br/>
+      Created By Aniket Darade
+      </a>
+      <br/><br/>
+      <a href="https://github.com/AniketDarade07" aria-label="github" class="link link--icon">
+        <i aria-hidden="true" class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/aniket-darade-7b7819250" aria-label="linkedin" class="link link--icon">
+        <i aria-hidden="true" class="fab fa-linkedin"></i>
+    </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
